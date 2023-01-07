@@ -1,0 +1,36 @@
+/* Style the table */
+table#minesweeper {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  /* Style the cells */
+  td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the cells when they are clicked */
+  td.clicked {
+    background-color: #eee;
+  }
+  
+  /* Style the cells that contain mines */
+  td.mine {
+    background-color: #f00;
+  }
+  button {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #FF69B4; /* pink color */
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+   
